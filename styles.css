@@ -9,14 +9,14 @@ body, html {
   width: 100%;
   height: 100vh;
   overflow: hidden;
-  position: relative;
+  position: center;
 }
 
 .header img {
   width: 100%;
   height: auto;
   object-fit: cover;
-  position: absolute;
+  position: center;
   top: 0;
   left: 0;
   animation: slide 10s linear infinite;
@@ -33,7 +33,7 @@ body, html {
 
 h1 {
   color: white;
-  font-size: 4em; /* Passen Sie die Schriftgröße nach Bedarf an */
+  font-size: 10em; /* Passen Sie die Schriftgröße nach Bedarf an */
   margin: 0;
 }
 
