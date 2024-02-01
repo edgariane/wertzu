@@ -14,7 +14,5 @@
     </div>
   </div>
 
-  <!-- Hier können Sie den Rest Ihrer Website-Inhalte hinzufügen -->
-
 </body>
 </html>
