@@ -8,7 +8,7 @@
 <body>
   <div class="header">
     <!-- Fügen Sie den Pfad zu Ihrem animierten GIF ein -->
-    <img src="pfad/zum/ihranimiertesbild.gif" alt="Animiertes Hintergrundbild">
+    <img src="steamuserimages-a.akamaihd.gif" alt="LOL">
   </div>
 
   <!-- Hier können Sie den Rest Ihrer Website-Inhalte hinzufügen -->
