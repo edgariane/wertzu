@@ -1,15 +1,13 @@
-<html>
+<!DOCTYPE html>
+<html lang="de">
 <head>
-  <title>Ihre animierte Website</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Deine Website</title>
 </head>
 <body>
-  <div class="header">
-    <img src="steamuserimages-a.akamaihd.gif" alt="LOL du hast scheiß Internet">
-    <div class="overlay">
-      <h1>Hallo</h1>
-    </div>
-  </div>
-
+    <h1>Willkommen auf meiner Website</h1>
+    <!-- Weitere Inhalte deiner Website hier einfügen -->
 </body>
 </html>
