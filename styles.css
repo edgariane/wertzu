@@ -2,6 +2,7 @@ body, html {
   margin: 0;
   padding: 0;
   height: 100%;
+  overflow: hidden; /* Verhindert das Scrollen, wenn das Bild den gesamten Bildschirm einnimmt */
 }
 
 .header {
@@ -18,4 +19,14 @@ body, html {
   position: absolute;
   top: 0;
   left: 0;
+  animation: slide 10s linear infinite; /* Animationsdefinition (Name, Dauer, Timing-Funktion, Wiederholungen) */
+}
+
+@keyframes slide {
+  0% {
+    transform: translateY(0); /* Startposition der Animation */
+  }
+  100% {
+    transform: translateY(-100vh); /* Endposition der Animation (verschiebt das Bild um die Viewport-Höhe nach oben) */
+  }
 }
