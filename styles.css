@@ -2,12 +2,12 @@ body, html {
   margin: 0;
   padding: 0;
   height: 100%;
-  overflow: hidden; /* Verhindert das Scrollen, wenn das Bild den gesamten Bildschirm einnimmt */
+  overflow: hidden;
 }
 
 .header {
   width: 100%;
-  height: 100vh; /* 100% der Viewport-Höhe */
+  height: 100vh;
   overflow: hidden;
   position: relative;
 }
@@ -15,18 +15,33 @@ body, html {
 .header img {
   width: 100%;
   height: auto;
-  object-fit: cover; /* Das Bild wird so skaliert, dass es den gesamten Container abdeckt */
+  object-fit: cover;
   position: absolute;
   top: 0;
   left: 0;
-  animation: slide 10s linear infinite; /* Animationsdefinition (Name, Dauer, Timing-Funktion, Wiederholungen) */
+  animation: slide 10s linear infinite;
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+}
+
+h1 {
+  color: white;
+  font-size: 4em; /* Passen Sie die Schriftgröße nach Bedarf an */
+  margin: 0;
 }
 
 @keyframes slide {
   0% {
-    transform: translateY(0); /* Startposition der Animation */
+    transform: translateY(0);
   }
   100% {
-    transform: translateY(-100vh); /* Endposition der Animation (verschiebt das Bild um die Viewport-Höhe nach oben) */
+    transform: translateY(-100vh);
   }
 }
