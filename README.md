@@ -8,6 +8,6 @@
 </head>
 <body>
     <h1>Willkommen auf meiner Website</h1>
-    <!-- Weitere Inhalte deiner Website hier einfügen -->
+
 </body>
 </html>
