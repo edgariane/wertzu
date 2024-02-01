@@ -6,7 +6,6 @@
     <title>The Wlan Trojaner</title>
 </head>
 <body>
-    <h1>Willkommen auf meiner Website</h1>
 
 </body>
 </html>
